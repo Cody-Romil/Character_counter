@@ -11,6 +11,9 @@ class Counter():
         self.special = 0
         self.vowels = ['a','e','i','o','u']
 
+        self._count()
+        self._output()
+
     def _count(self):
         for self.let in self.wrd:
             self._ascii = ord(self.let)
